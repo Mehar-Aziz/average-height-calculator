@@ -12,3 +12,6 @@ for student in student_heights:
     number_of_students += 1
 print(number_of_students)
 
+average_height = total_height / number_of_students
+average_height_rounded = round(average_height, 0)
+print(f"The Average of student heights is {average_height_rounded}")
